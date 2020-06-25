@@ -23,7 +23,7 @@ This utilises inquirer as a CLI.
 
 ### Folders
 The 'data' directory contains a pre-generated public and private key. 
-These can be regenerated using keGen.js
+These can be regenerated using keyGen.js
 
 
 Licensed under MIT
