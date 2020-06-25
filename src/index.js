@@ -4,19 +4,19 @@ const { encrypt } = require('./Encrypt.js');
 const { decrypt } = require('./Decrypt.js');
 const { genKey } = require('./Utils/keyGen.js');
 
-const main = () => {
-    const answer = inquirer.prompt ([
+const main = async () => {
+    const answer = await inquirer.prompt ([
         { type: 'checkbox', choices: ['Encrypt', 'Decrypt', 'Generate Key'], name: 'options', message: 'What do you wish to do?'}
     ]);
 
     if(answer.options.includes('Encrypt')){
-        encrypt();
+        await encrypt();
     }
     if(answer.options.includes('Decrypt')){
-        decrypt();
+        await decrypt();
     }
     if(answer.options.includes('Generate Key')){
-        genKey();
+        await genKey();
     }
 }
 
