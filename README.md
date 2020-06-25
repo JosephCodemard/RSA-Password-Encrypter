@@ -20,4 +20,10 @@ npm run Passwords
 (Install dependancies and then run the code...)
 This utilises inquirer as a CLI.
 
+
+### Folders
+The 'data' directory contains a pre-generated public and private key. 
+These can be regenerated using keGen.js
+
+
 Licensed under MIT
