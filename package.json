@@ -4,7 +4,10 @@
   "description": "A Git playground with inquirer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encrypt" : "node ./src/Encrypt.js",
+    "decrypt" : "node ./src/Decrypt.js",
+    "keygen" : "node ./src/Utils/keyGen.js"
   },
   "keywords": [
     "Inquirer",
@@ -13,6 +16,9 @@
   "author": "JosephCodemard",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^7.2.0"
+    "cli-progress": "^3.8.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.2.0",
+    "node-rsa": "^1.0.8"
   }
 }
