@@ -14,12 +14,15 @@ To encrypt the data in a base64 string
 You can run:
 ```
 npm i
-npm run Passwords
+npm run passwords
 ```
 
 (Install dependancies and then run the code...)
 This utilises inquirer as a CLI.
 
+### Contributing
+All contributions are welcome!
+Please feel free to make a pull request or to raise an issue
 
 ### Folders
 The 'data' directory contains a pre-generated public and private key. 
