@@ -1,0 +1,12 @@
+/package.json
+/package-lock.json
+/license
+/README.md
+/.gitignore
+/src/Decrypt.js
+/src/Encrypt.js
+/src/index.js
+/src/questions.js
+/src/Utils/keyGen.js
+/data/private.txt
+/data/public.txt
